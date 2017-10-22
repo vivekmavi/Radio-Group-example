@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.paras.radiogroupprogram.MainActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select any two radio button"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+         />
+    <RadioGroup
+        android:layout_margin="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/radiogroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radiobtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button1"/>
+        <RadioButton
+            android:id="@+id/radiobtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button2"/>
+        <RadioButton
+            android:id="@+id/radiobtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button3"/>
+        <RadioButton
+            android:id="@+id/radiobtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="button4"/>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_margin="20sp"
+        android:layout_gravity="center"
+        android:id="@+id/radiogroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radiobtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g2 button1"/>
+        <RadioButton
+            android:id="@+id/radiobtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g2 button2"/>
+        <RadioButton
+            android:id="@+id/radiobtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g2 button3"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/radiobtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g2 button4"/>
+    </RadioGroup>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="g2 i3"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/clrbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear selection"/>
+
+
+</LinearLayout>
